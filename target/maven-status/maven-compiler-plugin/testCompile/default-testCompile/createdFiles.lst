@@ -1,0 +1,15 @@
+practice\HttpRequest.class
+tests\Snippet.class
+base\BaseClass.class
+test\restassured\com\UserApi.class
+practice\cookiesDemo.class
+practice\headers.class
+practice\PathAndQueryParameters.class
+tests\login.class
+test\restassured\com\spec\RequestSpecBuilder.class
+test\restassured\com\Base\BaseClass.class
+practice\parsingJSONResponseData.class
+tests\smoke.class
+test\restassured\com\util\JsonUtil.class
+test\restassured\com\config\ConfigReader.class
+test\restassured\com\data\TestData.class

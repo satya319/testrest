@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-19T23:44:09 IST" name="suite" finished-at="2025-09-19T23:45:16 IST" duration-ms="67787">
+    <groups>
+    </groups>
+    <test started-at="2025-09-19T23:44:09 IST" name="smoke" finished-at="2025-09-19T23:45:16 IST" duration-ms="67787">
+      <class name="practice.HttpRequest">
+        <test-method signature="getUser()[pri:1, instance:practice.HttpRequest@5524cca1]" started-at="2025-09-19T23:45:02 IST" name="getUser" finished-at="2025-09-19T23:45:10 IST" duration-ms="7770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="createUser()[pri:2, instance:practice.HttpRequest@5524cca1]" started-at="2025-09-19T23:45:10 IST" name="createUser" finished-at="2025-09-19T23:45:15 IST" depends-on-methods="practice.HttpRequest.getUser" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="updateUser()[pri:3, instance:practice.HttpRequest@5524cca1]" started-at="2025-09-19T23:45:15 IST" name="updateUser" finished-at="2025-09-19T23:45:16 IST" depends-on-methods="practice.HttpRequest.createUser" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:practice.HttpRequest@5524cca1]" started-at="2025-09-19T23:45:16 IST" name="deleteUser" finished-at="2025-09-19T23:45:16 IST" depends-on-methods="practice.HttpRequest.updateUser" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- practice.HttpRequest -->
+      <class name="tests.smoke">
+        <test-method signature="browserlaunch()[pri:0, instance:tests.smoke@72cc7e6f]" started-at="2025-09-19T23:44:09 IST" name="browserlaunch" description="browser launch test" finished-at="2025-09-19T23:45:01 IST" duration-ms="52193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+      </class> <!-- tests.smoke -->
+    </test> <!-- smoke -->
+  </suite> <!-- suite -->
+</testng-results>
